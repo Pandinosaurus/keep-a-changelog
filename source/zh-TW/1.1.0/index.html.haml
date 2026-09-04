@@ -13,7 +13,7 @@ version: 1.1.0
     Version
     %strong= current_page.metadata[:page][:version]
 
-  %pre.changelog{ lang: "en" }= File.read("CHANGELOG.md")
+  %pre.changelog{ lang: "en" }= changelog_example
 
 .answers
   %h3#what
@@ -40,7 +40,7 @@ version: 1.1.0
 .good-practices
   %h3#how
     %a.anchor{ href: "#how", aria_hidden: "true" }
-    怎樣寫出高質量的更新日誌？
+    怎樣寫出高品質的更新日誌？
 
   %h4#principles
     %a.anchor{ href: "#principles", aria_hidden: "true" }
@@ -107,7 +107,7 @@ version: 1.1.0
     %a.anchor{ href: "#bad-practices", aria_hidden: "true" }
     有很糟糕的更新日誌嗎？
 
-  %p 當然有，下麵就是一些糟糕的範例。
+  %p 當然有，下面就是一些糟糕的範例。
 
   %h4#log-diffs
     %a.anchor{ href: "#log-diffs", aria_hidden: "true" }
@@ -202,7 +202,7 @@ version: 1.1.0
 
   %p
     現行版本的 GitHub Releases 不像那些典型的大寫文件（<code>README</code>，<code>CONTRIBUTING</code>
-    等），仍可以認為是不利於使用者探索的。另一個小問題則是目前的 GitHub Releases 界麵並沒有提供不同版本間的 commit 日誌的連結。
+    等），仍可以認為是不利於使用者探索的。另一個小問題則是目前的 GitHub Releases 界面並沒有提供不同版本間的 commit 日誌的連結。
 
   %h4#automatic
     %a.anchor{ href: "#automatic", aria_hidden: "true" }
